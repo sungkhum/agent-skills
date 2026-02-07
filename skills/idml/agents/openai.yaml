@@ -1,0 +1,4 @@
+interface:
+  display_name: "IDML (InDesign Markup)"
+  short_description: "Create and edit Adobe InDesign IDML files."
+  default_prompt: "Use $idml to create or edit an .idml file while preserving layout structure."

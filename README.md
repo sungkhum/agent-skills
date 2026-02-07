@@ -4,6 +4,7 @@ This repository contains reusable agent skills organized under `skills/`.
 
 ## Available skills
 - `skills/odt` — OpenDocument Text (ODT) creation, editing, tracked changes, schema validation, and language support (including Khmer).
+- `skills/idml` — Adobe InDesign IDML creation, editing, translation workflows, validation, and schema-based checks.
 
 ## Quick Start
 Use the ODT skill in a project with agent skills enabled:
@@ -12,6 +13,7 @@ Use the ODT skill in a project with agent skills enabled:
 git clone https://github.com/sungkhum/agent-skills.git
 mkdir -p .github/skills
 cp -R agent-skills/skills/odt .github/skills/odt
+cp -R agent-skills/skills/idml .github/skills/idml
 ```
 
 ## Install a skill
@@ -22,6 +24,7 @@ Copy a skill folder into your agent’s skills directory.
 git clone https://github.com/sungkhum/agent-skills.git
 mkdir -p ~/.claude/skills
 cp -R agent-skills/skills/odt ~/.claude/skills/odt
+cp -R agent-skills/skills/idml ~/.claude/skills/idml
 ```
 
 ### GitHub Copilot (Agent Skills)
@@ -31,6 +34,7 @@ Copilot reads skills from `.github/skills` or `.claude/skills` inside a repo. If
 # inside your project repo
 mkdir -p .github/skills
 cp -R /path/to/agent-skills/skills/odt .github/skills/odt
+cp -R /path/to/agent-skills/skills/idml .github/skills/idml
 ```
 
 ## Skill structure

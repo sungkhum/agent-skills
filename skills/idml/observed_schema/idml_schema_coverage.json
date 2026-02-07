@@ -1,0 +1,273 @@
+{
+  "sources": [],
+  "xml_file_count": 748,
+  "element_count": 393,
+  "component_counts": {
+    "META-INF": 2,
+    "MasterSpreads": 15,
+    "Resources": 4,
+    "Spreads": 467,
+    "Stories": 257,
+    "XML": 2,
+    "designmap.xml": 1
+  },
+  "root_tag_counts": {
+    "container": 1,
+    "xmpmeta": 1,
+    "MasterSpread": 15,
+    "Fonts": 1,
+    "Graphic": 1,
+    "Preferences": 1,
+    "Styles": 1,
+    "Spread": 467,
+    "Story": 257,
+    "BackingStory": 1,
+    "Tags": 1,
+    "Document": 1
+  },
+  "missing_components": [],
+  "top_elements": [
+    {
+      "name": "ListItem",
+      "count": 9942
+    },
+    {
+      "name": "PathPointType",
+      "count": 8990
+    },
+    {
+      "name": "Properties",
+      "count": 8885
+    },
+    {
+      "name": "Content",
+      "count": 5622
+    },
+    {
+      "name": "CharacterStyleRange",
+      "count": 5166
+    },
+    {
+      "name": "Br",
+      "count": 2684
+    },
+    {
+      "name": "GeometryPathType",
+      "count": 2292
+    },
+    {
+      "name": "PathPointArray",
+      "count": 2292
+    },
+    {
+      "name": "li",
+      "count": 2015
+    },
+    {
+      "name": "ParagraphStyleRange",
+      "count": 1932
+    },
+    {
+      "name": "instanceID",
+      "count": 1584
+    },
+    {
+      "name": "action",
+      "count": 1550
+    },
+    {
+      "name": "when",
+      "count": 1550
+    },
+    {
+      "name": "softwareAgent",
+      "count": 1550
+    },
+    {
+      "name": "changed",
+      "count": 1546
+    },
+    {
+      "name": "Spread",
+      "count": 1401
+    },
+    {
+      "name": "TextWrapPreference",
+      "count": 1379
+    },
+    {
+      "name": "TextWrapOffset",
+      "count": 1379
+    },
+    {
+      "name": "ObjectExportOption",
+      "count": 1357
+    },
+    {
+      "name": "AltMetadataProperty",
+      "count": 1357
+    },
+    {
+      "name": "ActualMetadataProperty",
+      "count": 1357
+    },
+    {
+      "name": "PathGeometry",
+      "count": 1267
+    },
+    {
+      "name": "AppliedFont",
+      "count": 1195
+    },
+    {
+      "name": "TextFramePreference",
+      "count": 950
+    },
+    {
+      "name": "InsetSpacing",
+      "count": 950
+    },
+    {
+      "name": "TextFrame",
+      "count": 922
+    },
+    {
+      "name": "PageColor",
+      "count": 843
+    },
+    {
+      "name": "MarginPreference",
+      "count": 833
+    },
+    {
+      "name": "GridDataInformation",
+      "count": 833
+    },
+    {
+      "name": "Page",
+      "count": 828
+    }
+  ],
+  "top_attributes": [
+    {
+      "name": "type",
+      "count": 19565
+    },
+    {
+      "name": "Anchor",
+      "count": 8990
+    },
+    {
+      "name": "LeftDirection",
+      "count": 8990
+    },
+    {
+      "name": "RightDirection",
+      "count": 8990
+    },
+    {
+      "name": "Self",
+      "count": 5912
+    },
+    {
+      "name": "AppliedCharacterStyle",
+      "count": 5521
+    },
+    {
+      "name": "Name",
+      "count": 4742
+    },
+    {
+      "name": "NamespacePrefix",
+      "count": 2714
+    },
+    {
+      "name": "PropertyPath",
+      "count": 2714
+    },
+    {
+      "name": "ItemTransform",
+      "count": 2661
+    },
+    {
+      "name": "Top",
+      "count": 2375
+    },
+    {
+      "name": "Bottom",
+      "count": 2375
+    },
+    {
+      "name": "Left",
+      "count": 2375
+    },
+    {
+      "name": "Right",
+      "count": 2375
+    },
+    {
+      "name": "PathOpen",
+      "count": 2292
+    },
+    {
+      "name": "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}parseType",
+      "count": 2033
+    },
+    {
+      "name": "AppliedParagraphStyle",
+      "count": 1973
+    },
+    {
+      "name": "Visible",
+      "count": 1627
+    },
+    {
+      "name": "OverriddenPageItemProps",
+      "count": 1525
+    },
+    {
+      "name": "FontStyle",
+      "count": 1397
+    },
+    {
+      "name": "GIFOptionsPalette",
+      "count": 1387
+    },
+    {
+      "name": "JPEGOptionsQuality",
+      "count": 1387
+    },
+    {
+      "name": "GIFOptionsInterlaced",
+      "count": 1382
+    },
+    {
+      "name": "JPEGOptionsFormat",
+      "count": 1382
+    },
+    {
+      "name": "GradientFillAngle",
+      "count": 1379
+    },
+    {
+      "name": "Inverse",
+      "count": 1379
+    },
+    {
+      "name": "ApplyToMasterPageOnly",
+      "count": 1379
+    },
+    {
+      "name": "TextWrapSide",
+      "count": 1379
+    },
+    {
+      "name": "TextWrapMode",
+      "count": 1379
+    },
+    {
+      "name": "ImageExportResolution",
+      "count": 1377
+    }
+  ]
+}
