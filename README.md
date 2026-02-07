@@ -16,6 +16,13 @@ cp -R agent-skills/skills/odt .github/skills/odt
 cp -R agent-skills/skills/idml .github/skills/idml
 ```
 
+## Claude Code (Community Marketplace)
+After this repository is approved in the community marketplace, install via:
+
+```bash
+/plugin install odt-idml-skills@community
+```
+
 ## Install a skill
 Copy a skill folder into your agent’s skills directory.
 

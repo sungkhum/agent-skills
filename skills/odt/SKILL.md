@@ -1,7 +1,8 @@
 ---
 name: odt
 description: "OpenDocument Text (.odt) creation, editing, and analysis. Supports tracked changes, styles, annotations, and language/locale handling. Use for: creating new ODT documents, editing existing ODT content, working with tracked changes (redlining), adding comments/annotations, or extracting/analyzing ODT content."
-tags: ["odt", "opendocument", "odf", "libreoffice", "tracked-changes", "localization", "xml", "odfdo"]
+metadata:
+  tags: "odt,opendocument,odf,libreoffice,tracked-changes,localization,xml,odfdo"
 ---
 
 # ODT Document Skill

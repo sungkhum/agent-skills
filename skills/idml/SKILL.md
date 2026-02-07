@@ -1,7 +1,8 @@
 ---
 name: idml
 description: "Comprehensive Adobe InDesign IDML creation, editing, and analysis. Use when working with .idml files to unpack, inspect, modify stories or spreads, preserve layout structure, validate packages, or generate IDML from InDesign exports."
-tags: ["idml", "indesign", "xml", "zip", "layout", "translation", "localization"]
+metadata:
+  tags: "idml,indesign,xml,zip,layout,translation,localization"
 ---
 
 # IDML creation, editing, and analysis

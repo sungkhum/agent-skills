@@ -1,0 +1,11 @@
+{
+  "name": "odt-idml-skills",
+  "version": "1.1.1",
+  "description": "ODT and IDML document skills for creation, editing, translation workflows, and validation.",
+  "author": {
+    "name": "sungkhum"
+  },
+  "homepage": "https://github.com/sungkhum/agent-skills",
+  "repository": "https://github.com/sungkhum/agent-skills",
+  "keywords": ["odt", "opendocument", "idml", "indesign", "documents", "translation", "localization"]
+}
