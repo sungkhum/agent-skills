@@ -6,17 +6,7 @@ This repository contains reusable agent skills organized under `skills/`.
 - `skills/odt` — OpenDocument Text (ODT) creation, editing, tracked changes, schema validation, and language support (including Khmer).
 - `skills/idml` — Adobe InDesign IDML creation, editing, translation workflows, validation, and schema-based checks.
 
-## Quick Start
-Use the ODT skill in a project with agent skills enabled:
-
-```bash
-git clone https://github.com/sungkhum/agent-skills.git
-mkdir -p .github/skills
-cp -R agent-skills/skills/odt .github/skills/odt
-cp -R agent-skills/skills/idml .github/skills/idml
-```
-
-## Install with `npx skills`
+## Install with `npx skills` (Recommended)
 Requires Node.js and npm (so `npx` is available).
 
 Install the skill collection:
@@ -33,6 +23,16 @@ npx skills add https://github.com/sungkhum/agent-skills --skill idml
 Optional: disable anonymous telemetry:
 ```bash
 DISABLE_TELEMETRY=1 npx skills add sungkhum/agent-skills
+```
+
+## Quick Start (Manual copy)
+Use the ODT skill in a project with agent skills enabled:
+
+```bash
+git clone https://github.com/sungkhum/agent-skills.git
+mkdir -p .github/skills
+cp -R agent-skills/skills/odt .github/skills/odt
+cp -R agent-skills/skills/idml .github/skills/idml
 ```
 
 ## Claude Code (Community Marketplace)
