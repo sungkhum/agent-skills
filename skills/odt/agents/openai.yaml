@@ -1,0 +1,4 @@
+interface:
+  display_name: "ODT (OpenDocument Text)"
+  short_description: "Create, edit, and analyze ODT documents."
+  default_prompt: "Use $odt to create or edit an .odt document with tracked changes and language settings."
