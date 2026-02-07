@@ -5,6 +5,15 @@ This repository contains reusable agent skills organized under `skills/`.
 ## Available skills
 - `skills/odt` — OpenDocument Text (ODT) creation, editing, tracked changes, schema validation, and language support (including Khmer).
 
+## Quick Start
+Use the ODT skill in a project with agent skills enabled:
+
+```bash
+git clone https://github.com/sungkhum/agent-skills.git
+mkdir -p .github/skills
+cp -R agent-skills/skills/odt .github/skills/odt
+```
+
 ## Install a skill
 Copy a skill folder into your agent’s skills directory.
 
