@@ -16,6 +16,14 @@ cp -R agent-skills/skills/odt .github/skills/odt
 cp -R agent-skills/skills/idml .github/skills/idml
 ```
 
+## One-line install (npx)
+Use the skills installer CLI to pull a single skill directly:
+
+```bash
+npx skills add https://github.com/sungkhum/agent-skills --skill odt
+npx skills add https://github.com/sungkhum/agent-skills --skill idml
+```
+
 ## Claude Code (Community Marketplace)
 After this repository is approved in the community marketplace, install via:
 
