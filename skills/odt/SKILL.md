@@ -1,6 +1,7 @@
 ---
 name: odt
 description: "OpenDocument Text (.odt) creation, editing, and analysis. Supports tracked changes, styles, annotations, and language/locale handling. Use for: creating new ODT documents, editing existing ODT content, working with tracked changes (redlining), adding comments/annotations, or extracting/analyzing ODT content."
+tags: ["odt", "opendocument", "odf", "libreoffice", "tracked-changes", "localization", "xml", "odfdo"]
 ---
 
 # ODT Document Skill
@@ -18,6 +19,13 @@ An .odt file is a ZIP package containing XML files and assets. Use high-level li
 | ODTDocument API | `references/odt-document.md` |
 | Schema validation | `references/odf-schemas.md` |
 | Tools overview | `references/tools.md` |
+
+## Example prompts
+- "Extract all text from this ODT and summarize headings and tables."
+- "Apply tracked changes to replace these phrases, keeping redlines intact."
+- "Set Khmer language/locale and fonts for all paragraph styles."
+- "Validate this ODT package and report any missing files."
+- "Unpack, edit content.xml, and repack without breaking styles."
 
 ## Workflow decision tree
 
@@ -45,9 +53,11 @@ python scripts/pack_odt.py <dir> <file.odt>     # Repack
 ```
 
 ### Using ODTDocument library
-Scripts using `ODTDocument` require PYTHONPATH set to the skill root:
+Scripts using `ODTDocument` require PYTHONPATH set to the skill root. If you're running from a repo root, point it explicitly to the skill folder:
 ```bash
-PYTHONPATH=/path/to/odt python your_script.py
+PYTHONPATH=/path/to/repo/skills/odt python your_script.py
+# example from repo root
+PYTHONPATH=skills/odt python your_script.py
 ```
 
 ### Creating documents with odfdo
@@ -94,12 +104,15 @@ pdftoppm -jpeg -r 150 document.pdf page             # PDF → images
 
 ## Dependencies
 
-| Package | Install | Purpose |
-|---------|---------|---------|
-| odfdo | `pip install odfdo` | ODT creation/editing |
-| defusedxml | `pip install defusedxml` | Safe XML parsing |
-| pandoc | `brew install pandoc` | Markdown conversion |
-| LibreOffice | `brew install --cask libreoffice` | PDF conversion |
+**Required**
+- **odfdo**: `pip install odfdo` (ODT creation/editing)
+- **defusedxml**: `pip install defusedxml` (safe XML parsing)
+
+**Optional**
+- **pandoc**: `brew install pandoc` (Markdown conversion)
+- **LibreOffice**: `brew install --cask libreoffice` (ODT → PDF)
+- **jing**: Relax NG validator for `validate_rng.py`
+- **Poppler**: `brew install poppler` (pdftoppm for PDF → images)
 
 ## Validation scripts
 

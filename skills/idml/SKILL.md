@@ -1,6 +1,7 @@
 ---
 name: idml
 description: "Comprehensive Adobe InDesign IDML creation, editing, and analysis. Use when working with .idml files to unpack, inspect, modify stories or spreads, preserve layout structure, validate packages, or generate IDML from InDesign exports."
+tags: ["idml", "indesign", "xml", "zip", "layout", "translation", "localization"]
 ---
 
 # IDML creation, editing, and analysis
@@ -17,6 +18,13 @@ An IDML file is a ZIP package containing XML component files (stories, spreads, 
 - Track changes guidance: `references/idml-track-changes.md`
 - Schemas and validation: `references/idml-schemas.md`
 - Tooling: `references/tools.md`
+
+## Example prompts
+- "Extract all story text from this IDML and prepare it for translation."
+- "Apply translated text back into Stories/*.xml without changing layout."
+- "Map stories to spreads and pages for review."
+- "Validate this IDML package and run a roundtrip smoke test."
+- "Generate an observed schema and report unknown elements."
 
 ## Workflow decision tree
 
@@ -86,6 +94,9 @@ Disable Track Changes before exporting IDML from InDesign. See `references/idml-
 - Avoid unnecessary print statements.
 
 ## Dependencies
+**Required**
 - **defusedxml**: `pip install defusedxml` (safe XML parsing)
-- **Adobe InDesign**: for exporting IDML from source documents
-- **jing** (optional): Relax NG validator for schema checks
+
+**Optional**
+- **InDesign**: export IDML from source documents
+- **jing**: Relax NG validator for strict schema checks
