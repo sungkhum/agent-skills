@@ -16,12 +16,23 @@ cp -R agent-skills/skills/odt .github/skills/odt
 cp -R agent-skills/skills/idml .github/skills/idml
 ```
 
-## One-line install (npx)
-Use the skills installer CLI to pull a single skill directly:
+## Install with `npx skills`
+Requires Node.js and npm (so `npx` is available).
 
+Install the skill collection:
+```bash
+npx skills add sungkhum/agent-skills
+```
+
+Install a single skill:
 ```bash
 npx skills add https://github.com/sungkhum/agent-skills --skill odt
 npx skills add https://github.com/sungkhum/agent-skills --skill idml
+```
+
+Optional: disable anonymous telemetry:
+```bash
+DISABLE_TELEMETRY=1 npx skills add sungkhum/agent-skills
 ```
 
 ## Claude Code (Community Marketplace)
