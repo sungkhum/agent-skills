@@ -11,6 +11,11 @@ metadata:
 
 An IDML file is a ZIP package containing XML component files (stories, spreads, resources) and a root `designmap.xml`. Use component-level edits for minimal, safe changes; use full-package workflows for repacking and validation.
 
+**Where scripts live**
+- All helper scripts are in `scripts/`. If a model says “no python scripts,” have it list the directory to confirm:
+  - `ls scripts`
+  - `ls skills/idml/scripts` (if running from repo root)
+
 **Reference files:**
 - IDML package structure: `references/idml-structure.md`
 - IDML XML overview: `references/idml-xml.md`
